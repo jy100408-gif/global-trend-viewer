@@ -40,6 +40,8 @@ jobs:
     name: 트렌드 수집 및 배포
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      contents: write   # 데이터 파일 자동 커밋에 필요
 
     steps:
       # 1. 레포지토리 체크아웃
