@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-grey-50: #f2f4f6;
+  --color-grey-100: #e5e8eb;
+  --color-grey-200: #d1d6db;
+  --color-grey-300: #b0b8c1;
+  --color-grey-400: #8b95a1;
+  --color-grey-500: #6b7684;
+  --color-grey-600: #4e5968;
+  --color-grey-700: #333d4b;
+  --color-grey-800: #191f28;
+  --color-grey-900: #101317;
+
+  --color-toss-blue: #3182f6;
+  --color-toss-blue-light: #e8f3ff;
+  
+  --radius-toss: 18px;
+}
+
+:root {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--color-grey-900);
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: radial-gradient(circle at top right, #1e293b 0%, #101317 100%);
+}
+
+.tds-list-item {
+  transition: background-color 0.2s ease;
+}
+
+.tds-list-item:active {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(0.98);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.bottom-sheet-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+}

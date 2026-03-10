@@ -1,0 +1,12 @@
+{
+  "name": "trend-ranker-agent",
+  "version": "1.0.0",
+  "description": "트렌딩 뉴스 랭킹/분석 에이전트 - 수집 데이터를 점수화하여 Top 20 선별",
+  "type": "module",
+  "main": "rank.js",
+  "scripts": {
+    "start": "node rank.js",
+    "dev": "node --watch rank.js"
+  },
+  "dependencies": {}
+}

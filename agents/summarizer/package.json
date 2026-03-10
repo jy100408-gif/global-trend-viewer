@@ -1,0 +1,15 @@
+{
+  "name": "trend-summarizer-agent",
+  "version": "1.0.0",
+  "description": "AI 요약 에이전트 - Gemini/OpenAI로 해외 뉴스를 한국어 3줄 요약",
+  "type": "module",
+  "main": "summarize.js",
+  "scripts": {
+    "start": "node summarize.js",
+    "dev": "node --watch summarize.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  }
+}

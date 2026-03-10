@@ -1,0 +1,12 @@
+{
+  "name": "trend-orchestrator-agent",
+  "version": "1.0.0",
+  "description": "전체 파이프라인 오케스트레이터 - 수집→랭킹→요약→배포 자동 실행",
+  "type": "module",
+  "main": "orchestrate.js",
+  "scripts": {
+    "start": "node orchestrate.js",
+    "test": "node orchestrate.js --dry-run"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,803 @@
+{
+  "collectedAt": "2026-03-10T09:52:10.262Z",
+  "commercialSafe": true,
+  "sources": {
+    "hackernews": [
+      {
+        "source": "hackernews",
+        "title": "Redox OS has adopted a Certificate of Origin policy and a strict no-LLM policy",
+        "description": "",
+        "url": "https://gitlab.redox-os.org/redox-os/redox/-/blob/master/CONTRIBUTING.md",
+        "publishedAt": "2026-03-10T08:54:53.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 70,
+        "commentCount": 47
+      },
+      {
+        "source": "hackernews",
+        "title": "Lotus 1-2-3 on the PC with DOS",
+        "description": "",
+        "url": "https://stonetools.ghost.io/lotus123-dos/",
+        "publishedAt": "2026-03-06T19:11:24.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 84,
+        "commentCount": 28
+      },
+      {
+        "source": "hackernews",
+        "title": "Two Years of Emacs Solo",
+        "description": "",
+        "url": "https://www.rahuljuliato.com/posts/emacs-solo-two-years",
+        "publishedAt": "2026-03-10T00:16:44.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 249,
+        "commentCount": 72
+      },
+      {
+        "source": "hackernews",
+        "title": "Optimizing Top K in Postgres",
+        "description": "",
+        "url": "https://www.paradedb.com/blog/optimizing-top-k",
+        "publishedAt": "2026-03-08T22:54:17.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 72,
+        "commentCount": 10
+      },
+      {
+        "source": "hackernews",
+        "title": "LoGeR – 3D reconstruction from extremely long videos (DeepMind, UC Berkeley)",
+        "description": "",
+        "url": "https://loger-project.github.io",
+        "publishedAt": "2026-03-10T06:16:06.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 28,
+        "commentCount": 12
+      },
+      {
+        "source": "hackernews",
+        "title": "macOS Tahoe windows have different corner radiuses",
+        "description": "",
+        "url": "https://lapcatsoftware.com/articles/2026/3/1.html",
+        "publishedAt": "2026-03-06T19:20:18.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 125,
+        "commentCount": 80
+      },
+      {
+        "source": "hackernews",
+        "title": "Building a Procedural Hex Map with Wave Function Collapse",
+        "description": "",
+        "url": "https://felixturner.github.io/hex-map-wfc/article/",
+        "publishedAt": "2026-03-09T17:02:22.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 489,
+        "commentCount": 71
+      },
+      {
+        "source": "hackernews",
+        "title": "Show HN: Remotely use my guitar tuner",
+        "description": "",
+        "url": "https://realtuner.online/",
+        "publishedAt": "2026-03-06T20:27:50.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 194,
+        "commentCount": 43
+      },
+      {
+        "source": "hackernews",
+        "title": "No, it doesn't cost Anthropic $5k per Claude Code user",
+        "description": "",
+        "url": "https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user/",
+        "publishedAt": "2026-03-09T23:22:06.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 206,
+        "commentCount": 142
+      },
+      {
+        "source": "hackernews",
+        "title": "A useless infinite scroll experiment",
+        "description": "",
+        "url": "https://futile.ch/en/",
+        "publishedAt": "2026-03-06T17:03:39.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 55,
+        "commentCount": 32
+      },
+      {
+        "source": "hackernews",
+        "title": "JSLinux Now Supports x86_64",
+        "description": "",
+        "url": "https://bellard.org/jslinux/",
+        "publishedAt": "2026-03-09T16:43:39.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 318,
+        "commentCount": 92
+      },
+      {
+        "source": "hackernews",
+        "title": "Is legal the same as legitimate: AI reimplementation and the erosion of copyleft",
+        "description": "",
+        "url": "https://writings.hongminhee.org/2026/03/legal-vs-legitimate/",
+        "publishedAt": "2026-03-09T15:12:53.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 459,
+        "commentCount": 485
+      },
+      {
+        "source": "hackernews",
+        "title": "Learnings from paying artists royalties for AI-generated art",
+        "description": "",
+        "url": "https://www.kapwing.com/blog/learnings-from-paying-artists-royalties-for-ai-generated-art/",
+        "publishedAt": "2026-03-10T02:24:52.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 133,
+        "commentCount": 101
+      },
+      {
+        "source": "hackernews",
+        "title": "Show HN: I Was Here – Draw on street view, others can find your drawings",
+        "description": "",
+        "url": "https://washere.live",
+        "publishedAt": "2026-03-10T05:04:23.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 24,
+        "commentCount": 18
+      },
+      {
+        "source": "hackernews",
+        "title": "Darkrealms BBS",
+        "description": "",
+        "url": "http://www.darkrealms.ca/",
+        "publishedAt": "2026-03-06T15:40:45.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 99,
+        "commentCount": 22
+      },
+      {
+        "source": "hackernews",
+        "title": "The “JVG algorithm” only wins on tiny numbers",
+        "description": "",
+        "url": "https://scottaaronson.blog/?p=9615",
+        "publishedAt": "2026-03-10T00:35:19.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 65,
+        "commentCount": 35
+      },
+      {
+        "source": "hackernews",
+        "title": "The hidden compile-time cost of C++26 reflection",
+        "description": "",
+        "url": "https://vittorioromeo.com/index/blog/refl_compiletime.html",
+        "publishedAt": "2026-03-06T17:10:45.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 12,
+        "commentCount": 1
+      },
+      {
+        "source": "hackernews",
+        "title": "The Gervais Principle, or the Office According to \"The Office\"",
+        "description": "",
+        "url": "https://www.ribbonfarm.com/2009/10/07/the-gervais-principle-or-the-office-according-to-the-office/",
+        "publishedAt": "2026-03-07T11:28:37.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 3,
+        "commentCount": 0
+      },
+      {
+        "source": "hackernews",
+        "title": "Show HN: DenchClaw – Local CRM on Top of OpenClaw",
+        "description": "",
+        "url": "https://github.com/DenchHQ/DenchClaw",
+        "publishedAt": "2026-03-09T14:55:42.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 117,
+        "commentCount": 96
+      },
+      {
+        "source": "hackernews",
+        "title": "DARPA’s new X-76",
+        "description": "",
+        "url": "https://www.darpa.mil/news/2026/darpa-new-x-76-speed-of-jet-freedom-of-helicopter",
+        "publishedAt": "2026-03-09T16:54:31.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 198,
+        "commentCount": 181
+      },
+      {
+        "source": "hackernews",
+        "title": "Getting Started in Common Lisp",
+        "description": "",
+        "url": "https://lisp-stat.dev/blog/2026/03/09/getting-started/",
+        "publishedAt": "2026-03-09T23:43:29.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 45,
+        "commentCount": 8
+      },
+      {
+        "source": "hackernews",
+        "title": "Graphing how the 10k* most common English words define each other",
+        "description": "",
+        "url": "https://wyattsell.com/experiments/word-graph/",
+        "publishedAt": "2026-03-07T16:24:24.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 59,
+        "commentCount": 16
+      },
+      {
+        "source": "hackernews",
+        "title": "An opinionated take on how to do important research that matters",
+        "description": "",
+        "url": "https://nicholas.carlini.com/writing/2026/how-to-win-a-best-paper-award.html",
+        "publishedAt": "2026-03-09T16:24:22.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 130,
+        "commentCount": 31
+      },
+      {
+        "source": "hackernews",
+        "title": "Florida judge rules red light camera tickets are unconstitutional",
+        "description": "",
+        "url": "https://cbs12.com/news/local/florida-news-judge-rules-red-light-camera-tickets-unconstitutional",
+        "publishedAt": "2026-03-09T17:20:29.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 427,
+        "commentCount": 543
+      },
+      {
+        "source": "hackernews",
+        "title": "OpenAI is walking away from expanding its Stargate data center with Oracle",
+        "description": "",
+        "url": "https://www.cnbc.com/2026/03/09/oracle-is-building-yesterdays-data-centers-with-tomorrows-debt.html",
+        "publishedAt": "2026-03-09T20:36:43.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 353,
+        "commentCount": 204
+      },
+      {
+        "source": "hackernews",
+        "title": "Notes on Baking at the South Pole",
+        "description": "",
+        "url": "https://www.newyorker.com/culture/the-weekend-essay/the-most-beautiful-freezer-in-the-world",
+        "publishedAt": "2026-03-09T19:12:14.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 59,
+        "commentCount": 22
+      },
+      {
+        "source": "hackernews",
+        "title": "Worming out molecular secrets behind collective behaviour",
+        "description": "",
+        "url": "https://iisc.ac.in/events/worming-out-molecular-secrets-behind-collective-behaviour/",
+        "publishedAt": "2026-03-07T05:12:53.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 11,
+        "commentCount": 0
+      },
+      {
+        "source": "hackernews",
+        "title": "No leap second will be introduced at the end of June 2026",
+        "description": "",
+        "url": "https://lists.iana.org/hyperkitty/list/tz@iana.org/thread/P6D36VZSZBUSSTSMZKFXKF4T4IXWN23P/",
+        "publishedAt": "2026-03-09T12:15:07.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 112,
+        "commentCount": 119
+      },
+      {
+        "source": "hackernews",
+        "title": "Ireland shuts last coal plant, becomes 15th coal-free country in Europe (2025)",
+        "description": "",
+        "url": "https://www.pv-magazine.com/2025/06/20/ireland-coal-free-ends-coal-power-generation-moneypoint/",
+        "publishedAt": "2026-03-09T10:14:59.000Z",
+        "sourceName": "Hacker News",
+        "rawScore": 963,
+        "commentCount": 596
+      }
+    ],
+    "gdelt": [
+      {
+        "source": "gdelt",
+        "title": "İranla müharibədə ölən amerikalıların sayı yeddi nəfərə çatıb",
+        "description": "",
+        "url": "https://www.yeniazerbaycan.com/Dunya_e138405_az.html",
+        "publishedAt": "2026-03-09T10:30:00Z",
+        "sourceName": "yeniazerbaycan.com",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Fransa vətəndaşlarına İraqı tərk etməyi tövsiyə edib",
+        "description": "",
+        "url": "https://www.yeniazerbaycan.com/Dunya_e138407_az.html",
+        "publishedAt": "2026-03-09T10:30:00Z",
+        "sourceName": "yeniazerbaycan.com",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Çinin xarici işlər naziri : İrandakı müharibəyə son qoyulmalıdır",
+        "description": "",
+        "url": "https://www.yeniazerbaycan.com/Dunya_e138409_az.html",
+        "publishedAt": "2026-03-09T10:30:00Z",
+        "sourceName": "yeniazerbaycan.com",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "AZAL Naxçıvana birbaşa uçuşları bərpa edir",
+        "description": "",
+        "url": "https://www.yeniazerbaycan.com/Sosial_e138414_az.html",
+        "publishedAt": "2026-03-09T10:30:00Z",
+        "sourceName": "yeniazerbaycan.com",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Azərbaycan ərazisindən keçməklə Ermənistana növbəti dəfə Rusiya taxılı göndərilib",
+        "description": "",
+        "url": "https://www.yeniazerbaycan.com/Iqtisadiyyat_e138415_az.html",
+        "publishedAt": "2026-03-09T10:30:00Z",
+        "sourceName": "yeniazerbaycan.com",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Azərbaycan və İran arasında dövlət sərhədindən bütn növ nəqliyyat vasitələri n yüklərin daşınması bərpa olunur",
+        "description": "",
+        "url": "https://www.yeniazerbaycan.com/Sosial_e138412_az.html",
+        "publishedAt": "2026-03-09T10:30:00Z",
+        "sourceName": "yeniazerbaycan.com",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Дмитриев рассказал , как восстановить энергетическую безопасность в мире",
+        "description": "",
+        "url": "https://ria.ru/20260309/dmitriev-2079564876.html",
+        "publishedAt": "2026-03-09T18:45:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Belçikada sinaqoq yaxınlığında partlayış baş verib",
+        "description": "",
+        "url": "https://www.yeniazerbaycan.com/Dunya_e138418_az.html",
+        "publishedAt": "2026-03-09T15:00:00Z",
+        "sourceName": "yeniazerbaycan.com",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Somali İran tərəfindən Azərbaycana qarşı dron hücumlarını qətiyyətlə pisləyib",
+        "description": "",
+        "url": "https://www.yeniazerbaycan.com/Siyaset_e138427_az.html",
+        "publishedAt": "2026-03-09T15:00:00Z",
+        "sourceName": "yeniazerbaycan.com",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Yohan David Vadeful Almaniya vətəndaşlarının İrandan təxliyəsinə göstərilən dəstəyə görə Azərbaycana təşəkkür edib",
+        "description": "",
+        "url": "https://www.yeniazerbaycan.com/Siyaset_e138426_az.html",
+        "publishedAt": "2026-03-09T15:00:00Z",
+        "sourceName": "yeniazerbaycan.com",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "В Финляндии призвали возобновить диалог с Россией",
+        "description": "",
+        "url": "https://ria.ru/20260309/finljandija-2079532351.html",
+        "publishedAt": "2026-03-09T13:45:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Guinness Dünya Rekorlarına göre yaşayan en kısa boylu kadın olan 32 yaşındaki Jyoti Amgenin boyu kaç cmdir ? Milyoner Sorusu",
+        "description": "",
+        "url": "https://www.konhaber.com/yasam/guinness_dunya_rekorlarina_gore_yasayan_en_kisa_boylu_kadin_olan_32_yasindaki_jyoti_amge_nin_boyu_kac_cm_dir_milyoner_sorusu-1993738h",
+        "publishedAt": "2026-03-09T21:15:00Z",
+        "sourceName": "konhaber.com",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Президент Польши на десять лет запретил продажу земли иностранцам",
+        "description": "",
+        "url": "https://ria.ru/20260309/prezident-2079509197.html",
+        "publishedAt": "2026-03-09T10:45:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Саудовская Аравия сбила девять дронов",
+        "description": "",
+        "url": "https://ria.ru/20260309/aravija-2079578050.html",
+        "publishedAt": "2026-03-09T20:45:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Подполье : ТЦК занижают число погибших , чтобы не платить компенсации",
+        "description": "",
+        "url": "https://ria.ru/20260310/podpole-2079600368.html",
+        "publishedAt": "2026-03-10T02:45:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Украинские СМИ сообщили о взрывах в Херсоне",
+        "description": "",
+        "url": "https://ria.ru/20260310/herson-2079629552.html",
+        "publishedAt": "2026-03-10T07:45:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Путин высказал Трампу ряд соображений по урегулированию конфликта с Ираном",
+        "description": "",
+        "url": "https://ria.ru/20260309/putin-2079572940.html",
+        "publishedAt": "2026-03-09T20:00:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "ПВО Кувейта уничтожила в понедельник две ракеты и один БПЛА",
+        "description": "",
+        "url": "https://ria.ru/20260310/pvo-2079583994.html",
+        "publishedAt": "2026-03-09T22:00:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "В Катаре за использование дронов задержали пять человек",
+        "description": "",
+        "url": "https://ria.ru/20260310/katar-2079592011.html",
+        "publishedAt": "2026-03-09T23:30:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Фон дер Ляйен призвала ЕС напористо демонстрировать свою силу",
+        "description": "",
+        "url": "https://ria.ru/20260309/es-2079517473.html",
+        "publishedAt": "2026-03-09T12:00:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Лариджани исключил успех идеи Макрона по безопасности в Ормузском проливе",
+        "description": "",
+        "url": "https://ria.ru/20260309/iran-2079551182.html",
+        "publishedAt": "2026-03-09T16:30:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Турция призвала Иран воздержаться от дальнейшей эскалации",
+        "description": "",
+        "url": "https://ria.ru/20260309/turtsija-2079522593.html",
+        "publishedAt": "2026-03-09T12:45:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "  Хезболла  заявила об отражении попытки Израиля продвинуться вглубь Ливана",
+        "description": "",
+        "url": "https://ria.ru/20260310/livan-2079615631.html",
+        "publishedAt": "2026-03-10T06:45:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Израильская авиация нанесла удары по зданиям у трассы в пригороде Бейрута",
+        "description": "",
+        "url": "https://ria.ru/20260309/udary-2079521180.html",
+        "publishedAt": "2026-03-09T12:30:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "СМИ : Израиль обсуждал наступление на  Хезболлу  до операции против Ирана",
+        "description": "",
+        "url": "https://ria.ru/20260310/ft-2079610748.html",
+        "publishedAt": "2026-03-10T06:00:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Сотрудники ТЦК стали требовать больше денег за откуп от мобилизации",
+        "description": "",
+        "url": "https://ria.ru/20260310/otkup-2079107267.html",
+        "publishedAt": "2026-03-10T01:45:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Трамп оценил американо - израильскую операцию в Иране",
+        "description": "",
+        "url": "https://ria.ru/20260309/ushakov-2079573285.html",
+        "publishedAt": "2026-03-09T20:00:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Путин и Трамп высказали готовность к регулярному общению , заявил Ушаков",
+        "description": "",
+        "url": "https://ria.ru/20260309/ushakov-2079571160.html",
+        "publishedAt": "2026-03-09T20:00:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Трамп сообщил , что уже достигнутых побед ему недостаточно",
+        "description": "",
+        "url": "https://ria.ru/20260310/tramp-2079584274.html",
+        "publishedAt": "2026-03-09T22:00:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "СМИ : военный лагерь бундесвера в Иордании подвергся ракетному обстрелу",
+        "description": "",
+        "url": "https://ria.ru/20260310/lager-2079583835.html",
+        "publishedAt": "2026-03-09T22:00:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Трамп заявил , что в разговоре с Путиным участвовало много человек",
+        "description": "",
+        "url": "https://ria.ru/20260310/tramp-2079587411.html",
+        "publishedAt": "2026-03-09T22:45:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Путин заявил , что деятельность верховного лидера Ирана потребует мужества",
+        "description": "",
+        "url": "https://ria.ru/20260309/putin-2079507183.html",
+        "publishedAt": "2026-03-09T10:30:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Суд на Украине оставил под стражей командующего логистикой ВСУ",
+        "description": "",
+        "url": "https://ria.ru/20260309/vaksy-2079513604.html",
+        "publishedAt": "2026-03-09T11:30:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Имущество сотрудничающих с США и Израилем иранцев конфискуют",
+        "description": "",
+        "url": "https://ria.ru/20260309/ssha-2079517978.html",
+        "publishedAt": "2026-03-09T12:00:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "В центре Израиля человек погиб при падении ракеты",
+        "description": "",
+        "url": "https://ria.ru/20260309/izrail-2079508580.html",
+        "publishedAt": "2026-03-09T10:45:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "ЦАХАЛ начала ограниченную наземную операцию против  Хезболлы  на юге Ливана",
+        "description": "",
+        "url": "https://ria.ru/20260309/tsakhal-2079515506.html",
+        "publishedAt": "2026-03-09T11:45:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Эксперт прокомментировал избрание сына Хаменеи лидером Ирана",
+        "description": "",
+        "url": "https://ria.ru/20260309/izbranie-2079579427.html",
+        "publishedAt": "2026-03-09T21:00:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Путин и Трамп обменялись мнениями по ситуации в Иране , заявил Ушаков",
+        "description": "",
+        "url": "https://ria.ru/20260309/ushakov-2079571070.html",
+        "publishedAt": "2026-03-09T20:00:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Фидан провел телефонные переговоры с главами МИД Франции и ОАЭ",
+        "description": "",
+        "url": "https://ria.ru/20260309/glava-2079570251.html",
+        "publishedAt": "2026-03-09T20:00:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Аракчи заявил , что миллионы иранцев поддерживают власти страны",
+        "description": "",
+        "url": "https://ria.ru/20260310/arakchi-2079594901.html",
+        "publishedAt": "2026-03-10T01:00:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "СМИ : Мерц после встречи с Трампом не смог дозвониться до Санчеса",
+        "description": "",
+        "url": "https://ria.ru/20260310/merts-2079592275.html",
+        "publishedAt": "2026-03-10T00:00:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Трамп разочарован , что Моджтабу Хаменеи избрали верховным лидером Ирана",
+        "description": "",
+        "url": "https://ria.ru/20260310/tramp-2079589075.html",
+        "publishedAt": "2026-03-09T23:00:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "СМИ : экс - глава минфина США потерял пост в НКО из - за связей с Эпштейном",
+        "description": "",
+        "url": "https://ria.ru/20260310/post-2079590838.html",
+        "publishedAt": "2026-03-09T23:15:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Трамп прокомментировал возможность захвата иранской нефти",
+        "description": "",
+        "url": "https://ria.ru/20260309/tramp-2079567579.html",
+        "publishedAt": "2026-03-09T19:30:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Иран атаковал цели США и Израиля сверхтяжелыми ракетами , заявил КСИР",
+        "description": "",
+        "url": "https://ria.ru/20260309/iran-2079530015.html",
+        "publishedAt": "2026-03-09T13:45:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Моджтаба Хаменеи мог пострадать в конфликте с США и Израилем",
+        "description": "",
+        "url": "https://ria.ru/20260309/ssha-2079521004.html",
+        "publishedAt": "2026-03-09T12:30:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Иран готов вести войну на истощение , считает эксперт",
+        "description": "",
+        "url": "https://ria.ru/20260309/iran-2079521426.html",
+        "publishedAt": "2026-03-09T12:30:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Белый дом готовит сделку с Кубой , выяснили СМИ",
+        "description": "",
+        "url": "https://ria.ru/20260309/kuba-2079507903.html",
+        "publishedAt": "2026-03-09T10:45:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "Израилю достаточно уничтожения иранских военных объектов , пишут СМИ",
+        "description": "",
+        "url": "https://ria.ru/20260309/smi-2079529020.html",
+        "publishedAt": "2026-03-09T13:30:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      },
+      {
+        "source": "gdelt",
+        "title": "  Публичный позор . Дерзкая выходка Зеленского вызвала ярость на Западе",
+        "description": "",
+        "url": "https://ria.ru/20260310/zelenskiy-2079623084.html",
+        "publishedAt": "2026-03-10T07:30:00Z",
+        "sourceName": "ria.ru",
+        "rawScore": 1
+      }
+    ]
+  },
+  "trendTerms": [
+    {
+      "term": "local weather",
+      "rank": 1,
+      "traffic": "100+"
+    },
+    {
+      "term": "zoe saldana",
+      "rank": 2,
+      "traffic": "100+"
+    },
+    {
+      "term": "cheryl hines",
+      "rank": 3,
+      "traffic": "100+"
+    },
+    {
+      "term": "winter storm warning weather",
+      "rank": 4,
+      "traffic": "1000+"
+    },
+    {
+      "term": "we",
+      "rank": 5,
+      "traffic": "500+"
+    },
+    {
+      "term": "spirit",
+      "rank": 6,
+      "traffic": "100+"
+    },
+    {
+      "term": "sag aftra",
+      "rank": 7,
+      "traffic": "100+"
+    },
+    {
+      "term": "mass lottery",
+      "rank": 8,
+      "traffic": "100+"
+    },
+    {
+      "term": "nasa satellite crash",
+      "rank": 9,
+      "traffic": "500+"
+    },
+    {
+      "term": "high wind watch",
+      "rank": 10,
+      "traffic": "200+"
+    }
+  ],
+  "totalCount": 79
+}
