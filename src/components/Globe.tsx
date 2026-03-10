@@ -53,8 +53,8 @@ const GlobeInner: React.FC<GlobeProps> = ({ trends, hoveredRank, onMarkerClick }
   return (
     <ReactGlobe
       ref={globeRef}
-      width={256}
-      height={256}
+      width={180}
+      height={180}
       // 도시 불빛이 보이는 밤 지구 텍스처 (훨씬 선명하고 예쁨)
       globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
       bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
@@ -121,18 +121,16 @@ const GlobeInner: React.FC<GlobeProps> = ({ trends, hoveredRank, onMarkerClick }
 // Suspense 래퍼: Three.js 로드 중 로딩 UI 표시
 const Globe: React.FC<GlobeProps> = (props) => {
   return (
-    <div className="relative w-72 h-72 mx-auto flex items-center justify-center">
-      {/* 배경 글로우 (푸른색 -> 은은한 골드/화이트) */}
-      <div className="absolute w-64 h-64 bg-amber-500/5 rounded-full blur-3xl opacity-50" />
-
+    <div className="relative w-48 h-48 mx-auto flex items-center justify-center">
+      {/* 배경 글로우 */}
+      <div className="absolute w-44 h-44 bg-amber-500/5 rounded-full blur-3xl opacity-50" />
       {/* Outer Orbit */}
-      <div className="absolute w-80 h-80 border border-white/5 rounded-full" />
-
+      <div className="absolute w-52 h-52 border border-white/5 rounded-full" />
       {/* 대기권 글로우 */}
-      <div className="absolute w-64 h-64 border border-white/10 rounded-full box-content p-3 -m-3 opacity-30" />
+      <div className="absolute w-44 h-44 border border-white/10 rounded-full box-content p-3 -m-3 opacity-30" />
 
       <Suspense fallback={
-        <div className="w-64 h-64 rounded-full flex items-center justify-center"
+        <div className="w-44 h-44 rounded-full flex items-center justify-center"
              style={{ background: 'radial-gradient(circle at 35% 35%, #2a2a2a, #0a0a0a)' }}>
           <div className="w-8 h-8 border-2 border-amber-400/30 border-t-amber-400 rounded-full animate-spin" />
         </div>

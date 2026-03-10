@@ -38,7 +38,8 @@ function buildMockData(): LiveTrendsData {
 interface UseTrendsResult {
   trends: TrendItem[];
   displayDate: string;
-  isLive: boolean;       // true: 에이전트 실시간 데이터, false: Mock 데이터
+  updatedAt: string;     // ISO 8601 갱신 시각 (배지용 시간 표시)
+  isLive: boolean;       // true: 에이전트 데이터, false: Mock 데이터
   loading: boolean;
   error: string | null;
 }
@@ -46,6 +47,7 @@ interface UseTrendsResult {
 export function useTrends(): UseTrendsResult {
   const [trends, setTrends] = useState<TrendItem[]>([]);
   const [displayDate, setDisplayDate] = useState('');
+  const [updatedAt, setUpdatedAt] = useState('');
   const [isLive, setIsLive] = useState(false);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -72,6 +74,7 @@ export function useTrends(): UseTrendsResult {
         if (!cancelled) {
           setTrends(data.trends);
           setDisplayDate(data.displayDate || formatKoreanDate(new Date(data.updatedAt)));
+          setUpdatedAt(data.updatedAt);
           setIsLive(true);
         }
       } catch (err) {
@@ -85,6 +88,7 @@ export function useTrends(): UseTrendsResult {
           const mock = buildMockData();
           setTrends(mock.trends);
           setDisplayDate(mock.displayDate);
+          setUpdatedAt(mock.updatedAt);
           setIsLive(false);
           setError(err instanceof Error ? err.message : 'unknown error');
         }
@@ -102,5 +106,5 @@ export function useTrends(): UseTrendsResult {
     };
   }, []);
 
-  return { trends, displayDate, isLive, loading, error };
+  return { trends, displayDate, updatedAt, isLive, loading, error };
 }

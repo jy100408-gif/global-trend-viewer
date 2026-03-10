@@ -1,11 +1,12 @@
-# ⏰ 스케줄 에이전트: GitHub Actions를 이용한 하루 2회 자동 실행
+# ⏰ 스케줄 에이전트: GitHub Actions를 이용한 매시 정각 자동 실행
 #
 # 파일 위치: .github/workflows/daily-trend-collector.yml
 #
 # 설명:
-#   - KST 08:50 AM / PM 하루 2회 자동 실행
+#   - 매시 정각 자동 실행 → 하루 24회
 #   - 수집 → 랭킹 → 요약 → 커밋
-#   - GitHub Actions 무료 티어로 운영 가능 (월 2,000분 무료)
+#   - Gemini 무료 한도: 1,500 req/일 → 24회 × 20건 = 480건 (여유 있음)
+#   - GitHub Actions 무료 티어: 월 2,000분 → 24회 × 2분 = 48분/일 (여유 있음)
 #
 # 사전 준비:
 #   - GitHub Secrets에 아래 키 등록:
@@ -18,13 +19,12 @@
 #   - GDELT (전 세계 뉴스 공개 DB)
 #   - Google Trends RSS (구글 공개 검색량 피드)
 
-name: 🌐 Daily Global Trends Collector
+name: 🌐 Hourly Global Trends Collector
 
 on:
-  # KST 08:50 AM (= UTC 23:50 전날) 및 KST 08:50 PM (= UTC 11:50) 하루 2회 실행
+  # 매시 정각 UTC 실행 (KST = UTC+9, 예: UTC 00:00 = KST 09:00)
   schedule:
-    - cron: "50 23 * * *"   # KST 08:50 AM
-    - cron: "50 11 * * *"   # KST 08:50 PM
+    - cron: "0 * * * *"   # 매시 정각
 
   # 수동 실행도 가능 (테스트용)
   workflow_dispatch:
@@ -74,6 +74,7 @@ jobs:
       - name: 🚀 전체 파이프라인 실행
         working-directory: agents/orchestrator
         env:
+          NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -84,7 +85,7 @@ jobs:
         if: ${{ github.event.inputs.dry_run != 'true' }}
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🤖 자동 업데이트: $(date '+%Y-%m-%d') 트렌드 Top 20"
+          commit_message: "🤖 자동 업데이트: $(date '+%Y-%m-%d %H:%M') 트렌드 Top 20"
           file_pattern: |
             public/data/live_trends.json
             agents/*/output/*.json

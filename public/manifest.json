@@ -1,0 +1,19 @@
+{
+  "name": "Trend 24/7 - 글로벌 트렌드",
+  "short_name": "Trend 24/7",
+  "description": "전 세계 실시간 트렌드 Top 20을 AI 요약으로 한눈에",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#101317",
+  "theme_color": "#101317",
+  "orientation": "portrait",
+  "lang": "ko",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

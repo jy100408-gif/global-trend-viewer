@@ -18,6 +18,11 @@ export interface TrendItem {
   source?: string;         // 소스 (NewsAPI, Hacker News, Reddit 등)
   publishedAt?: string;    // 원문 발행 시각
   growth: string;          // 검색 급상승률 표시 (예: "+450%")
+  // 점수 분류 (0~100 정수)
+  scores?: {
+    trend: number;    // 검색 트렌드 (Google Trends 매칭)
+    recency: number;  // 최신성 (발행 시각 기준)
+  };
   // 글로브 표시용 (mock 데이터 호환)
   lat?: number;
   lng?: number;
@@ -45,7 +50,8 @@ export const mockTrends: TrendItem[] = [
     source: "Hacker News",
     lat: 37.7749, lng: -122.4194,
     country: "USA", flag: "🇺🇸",
-    keywords: ["OpenAI", "GPT-5", "LLM", "Sam Altman"]
+    keywords: ["OpenAI", "GPT-5", "LLM", "Sam Altman"],
+    scores: { trend: 82, recency: 80 },
   },
   {
     rank: 2,
@@ -59,7 +65,8 @@ export const mockTrends: TrendItem[] = [
     source: "NewsAPI",
     lat: 52.5200, lng: 13.4050,
     country: "Germany", flag: "🇩🇪",
-    keywords: ["Euro 2026", "UEFA", "Football", "Berlin"]
+    keywords: ["Euro 2026", "UEFA", "Football", "Berlin"],
+    scores: { trend: 91, recency: 70 },
   },
   {
     rank: 3,
@@ -73,7 +80,8 @@ export const mockTrends: TrendItem[] = [
     source: "Reddit",
     lat: 37.5665, lng: 126.9780,
     country: "South Korea", flag: "🇰🇷",
-    keywords: ["K-POP", "Seoul", "World Tour", "Global Wave"]
+    keywords: ["K-POP", "Seoul", "World Tour", "Global Wave"],
+    scores: { trend: 88, recency: 100 },
   },
   {
     rank: 4,
@@ -87,7 +95,8 @@ export const mockTrends: TrendItem[] = [
     source: "NewsAPI",
     lat: 50.8503, lng: 4.3517,
     country: "EU", flag: "🇪🇺",
-    keywords: ["SDGs", "Net Zero", "EU Commission", "Green Fund"]
+    keywords: ["SDGs", "Net Zero", "EU Commission", "Green Fund"],
+    scores: { trend: 55, recency: 60 },
   },
   {
     rank: 5,
@@ -101,7 +110,8 @@ export const mockTrends: TrendItem[] = [
     source: "NewsAPI",
     lat: 35.6762, lng: 139.6503,
     country: "Japan", flag: "🇯🇵",
-    keywords: ["Harajuku", "Retro-Future", "Fashion Week", "Y2K"]
+    keywords: ["Harajuku", "Retro-Future", "Fashion Week", "Y2K"],
+    scores: { trend: 72, recency: 80 },
   },
   {
     rank: 6,
@@ -115,7 +125,8 @@ export const mockTrends: TrendItem[] = [
     source: "NewsAPI",
     lat: -15.7975, lng: -47.8919,
     country: "Brazil", flag: "🇧🇷",
-    keywords: ["Amazon", "Environment", "Protection Bill", "Lula"]
+    keywords: ["Amazon", "Environment", "Protection Bill", "Lula"],
+    scores: { trend: 45, recency: 40 },
   },
   {
     rank: 7,
@@ -129,7 +140,8 @@ export const mockTrends: TrendItem[] = [
     source: "NewsAPI",
     lat: 51.5074, lng: -0.1278,
     country: "UK", flag: "🇬🇧",
-    keywords: ["Fintech", "The City", "Digital Asset", "London"]
+    keywords: ["Fintech", "The City", "Digital Asset", "London"],
+    scores: { trend: 38, recency: 60 },
   },
   {
     rank: 8,
@@ -143,7 +155,8 @@ export const mockTrends: TrendItem[] = [
     source: "Hacker News",
     lat: 28.5623, lng: -80.5774,
     country: "USA", flag: "🇺🇸",
-    keywords: ["NASA", "Artemis", "Moon", "Space"]
+    keywords: ["NASA", "Artemis", "Moon", "Space"],
+    scores: { trend: 60, recency: 80 },
   },
   {
     rank: 9,
@@ -157,7 +170,8 @@ export const mockTrends: TrendItem[] = [
     source: "NewsAPI",
     lat: 25.2048, lng: 55.2708,
     country: "UAE", flag: "🇦🇪",
-    keywords: ["GITEX", "Smart City", "Tech Week", "Self-Driving"]
+    keywords: ["GITEX", "Smart City", "Tech Week", "Self-Driving"],
+    scores: { trend: 30, recency: 40 },
   },
   {
     rank: 10,
@@ -171,7 +185,8 @@ export const mockTrends: TrendItem[] = [
     source: "NewsAPI",
     lat: 47.3769, lng: 8.5417,
     country: "Switzerland", flag: "🇨🇭",
-    keywords: ["Swiss Bank", "Crypto", "Wealth Management", "Zurich"]
+    keywords: ["Swiss Bank", "Crypto", "Wealth Management", "Zurich"],
+    scores: { trend: 55, recency: 60 },
   },
   {
     rank: 11,
@@ -185,7 +200,8 @@ export const mockTrends: TrendItem[] = [
     source: "NewsAPI",
     lat: 1.3521, lng: 103.8198,
     country: "Singapore", flag: "🇸🇬",
-    keywords: ["AI Governance", "Safety", "Big Tech", "Policy"]
+    keywords: ["AI Governance", "Safety", "Big Tech", "Policy"],
+    scores: { trend: 42, recency: 40 },
   },
   {
     rank: 12,
@@ -199,7 +215,8 @@ export const mockTrends: TrendItem[] = [
     source: "Reddit",
     lat: 19.0760, lng: 72.8777,
     country: "India", flag: "🇮🇳",
-    keywords: ["Bollywood", "Cinema", "Awards", "OTT"]
+    keywords: ["Bollywood", "Cinema", "Awards", "OTT"],
+    scores: { trend: 68, recency: 80 },
   },
   {
     rank: 13,
@@ -213,7 +230,8 @@ export const mockTrends: TrendItem[] = [
     source: "NewsAPI",
     lat: 43.6532, lng: -79.3832,
     country: "Canada", flag: "🇨🇦",
-    keywords: ["Housing", "Interest Rate", "Toronto", "Bank of Canada"]
+    keywords: ["Housing", "Interest Rate", "Toronto", "Bank of Canada"],
+    scores: { trend: 30, recency: 60 },
   },
   {
     rank: 14,
@@ -227,7 +245,8 @@ export const mockTrends: TrendItem[] = [
     source: "NewsAPI",
     lat: 19.4326, lng: -99.1332,
     country: "Mexico", flag: "🇲🇽",
-    keywords: ["Nearshoring", "USMCA", "Trade", "Manufacturing"]
+    keywords: ["Nearshoring", "USMCA", "Trade", "Manufacturing"],
+    scores: { trend: 22, recency: 40 },
   },
   {
     rank: 15,
@@ -241,7 +260,8 @@ export const mockTrends: TrendItem[] = [
     source: "Reddit",
     lat: 52.3676, lng: 4.9041,
     country: "Netherlands", flag: "🇳🇱",
-    keywords: ["Biking", "Urban Planning", "Sustainability", "No Car Zone"]
+    keywords: ["Biking", "Urban Planning", "Sustainability", "No Car Zone"],
+    scores: { trend: 18, recency: 40 },
   },
   {
     rank: 16,

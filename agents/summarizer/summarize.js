@@ -198,13 +198,13 @@ async function main() {
       summary = summarize
         ? await summarize(item.title, item.description)
         : fallbackSummarize(item);
-
-      // 레이트 리밋 방지: provider별 최소 간격 유지
-      if (summarize) await new Promise(r => setTimeout(r, RATE_LIMIT_DELAY[provider] ?? 1000));
     } catch (err) {
       console.warn(`    ⚠️  요약 실패 (폴백 사용): ${err.message}`);
       summary = fallbackSummarize(item);
     }
+
+    // 레이트 리밋 방지: 성공/실패 관계없이 항상 대기
+    if (summarize) await new Promise(r => setTimeout(r, RATE_LIMIT_DELAY[provider] ?? 1000));
 
     summarized.push({ ...item, ...summary });
   }
